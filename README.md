@@ -14,4 +14,6 @@
 
 ### 4 clock cycles will be needed to execute one instruction
 
+![Image](https://github.com/wesleywesvo/4-Stage-Pipeline/blob/main/MMU%20rough%20drawing.jpg)
+
 ### Read the report to learn more about this type of processor
