@@ -1,0 +1,37 @@
+ldi r1, 7FFE(0)
+ldi r2, 0002(0)
+ahs r3, r1, r2
+clz r4, r0, r31 
+a r5, r1, r4
+ah r6, r1, r4
+and r7, r6, r5
+ldi r1, 7FFF(1)
+bcw r3, r1, r0
+ldi r2, FFFF(1)
+bcw r4, r2, r0
+absdb r5, r4, r2
+mpyu r6, r5, r3
+msgn r7, r3, r5
+popcntw r9, r3, r31
+dupe r8
+or r8, r4, r0
+rot r10, r1, r2
+rotw r11, r1, r2
+shlhi r12, r4, r2
+sfh r13, r3, r4
+sfw r14, r6, r4
+sfhs r15, r6, r5
+nand r16, r0, r0
+000 r17, r3, r13, r13
+001 r18, r5, r3, r5
+010 r19, r5, r1, r1
+011 r20, r5, r1, r1
+100 r21, r3, r1, r1
+101 r22, r3, r8, r8
+110 r23, r13, r22, r22
+111 r24, r23, r16, r16
+nop
+
+
+
+
